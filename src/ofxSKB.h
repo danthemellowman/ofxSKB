@@ -64,6 +64,7 @@ class ofxSKB   {
     void mouseMoved(ofMouseEventArgs& args);
     void mousePressed(ofMouseEventArgs& args);
     void mouseReleased(ofMouseEventArgs& args);
+    void mouseScrolled(ofMouseEventArgs& args){};
 
   protected:
     vector<ofxSKBKeyType> keys;
